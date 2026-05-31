@@ -5,7 +5,7 @@ Native macOS menu bar bridge for syncing local Messages text into Del.
 ## Development
 
 ```sh
-cd apps/mac-bridge
+cd experimental/mac-bridge
 swift package resolve
 swift build
 swift run DelMacBridge
