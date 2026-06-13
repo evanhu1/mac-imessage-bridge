@@ -2,10 +2,14 @@
 
 Native macOS menu bar bridge for syncing local Messages text into Del.
 
+Extracted from the main Del repo, where it lived at `apps/mac-bridge` and later
+`experimental/mac-bridge`. The server-side counterparts (the `/api/mac-bridge/*`
+routes, `lib/db/mac-bridge.ts`, and the integration status card) remain in that
+repo's history.
+
 ## Development
 
 ```sh
-cd experimental/mac-bridge
 swift package resolve
 swift build
 swift run DelMacBridge
